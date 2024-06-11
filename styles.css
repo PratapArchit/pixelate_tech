@@ -425,7 +425,10 @@
     .services {
       height: 1900px;
     }
-  
+    .services_container.card{
+      width: 200px;
+      max-width: 100%;
+    }
     .services h1 {
       font-size: 2rem;
       margin-top: 12rem;
@@ -443,6 +446,9 @@
   
     .services_card {
       width: 250px;
+    }
+    .services_card h2{
+      font-size: 1.35rem;
     }
   }
   .footer_container {
