@@ -519,7 +519,38 @@
     color: #ff8177;
     transition: 0.3s ease-out;
   }
-  
+  .contact_us_items{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: left;
+    margin: 60px;
+    margin-left: 350px;
+    text-align: left;
+    padding-left: 0;
+    width: 280px;
+    box-sizing: border-box;
+  }
+  .contact_us_items h2{
+    margin-bottom: 16px;
+    font-size: 2.5rem;
+    width: 240px;
+    align:left;
+    color: #fff;
+  }
+  .contact_us_items a{
+    color: #fff;
+    width: 140px;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+  }
+  .contact_us_items h4{
+    color: #fff;
+    width: 260px;
+    margin-top: 0.5rem;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+  }
+
   .social_icon_link {
     color: #fff;
     font-size: 24px;

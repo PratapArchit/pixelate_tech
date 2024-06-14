@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/e0f168f11e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        #loginForm{
+            height: 400px;
+            width: 400px;
+            margin-left:100px;
+            margin-top: 100px;
+            border: 2px;
+            background-color: black;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar_container">
+        <a href="index.html" id="navbar_logo"><i class="fas fa-gem"></i>PIXELATE.TECH</a>
+    </div>
+    <form id="loginForm">
+        <div class="card_body">
+            <div class="card-header">Register Here</div>
+            <div id="name">
+                <span>Enter your name:</span>
+                <span><input type="text" placeholder="Name"></span>
+            </div>
+            <div class="regNum">
+                <span>Registration Number: </span>
+                <span><input type="text" placeholder="Registration Number"></span>
+            </div>
+            <div class="Contact">
+                <span>Contact Number:</span>
+                <span><input type="number" placeholder="Contact Number"></span>
+            </div>
+            <div class="email">
+                <span>Email ID:</span>
+                <span><input type="email" placeholder="Email ID"></span>
+            </div>
+            <div class="preferences">
+                <span>Preference: </span>
+                <span><input type="radio" name="preference_option"    id="Web"><label for="Web">Web</label>
+                <input type="radio" name="preference_option" id="App"><label for="App">App</label>
+                <input type="radio" name="preference_option" id="Gem"><label for="Web">Game</label>
+                </span>
+            </div>
+            <div class="semester">
+                <span>Semester: </span>
+                <select name="semester" id="semester">
+                    <option value="">--Select--</option>
+                    <option value="1st">Semester 1</option>
+                    <option value="2nd">Semester 2</option>
+                    <option value="3rd">Semester 3</option>
+                    <option value="4th">Semester 4</option>
+                    <option value="5th">Semester 5</option>
+                    <option value="6th">Semester 6</option>
+                    <option value="7th">Semester 7</option>
+                    <option value="8th">Semester 8</option>
+                </select>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
+<!-- Name
+ Reg Number
+  Contact
+  Email
+  Preference
+  Semester
+  -->
